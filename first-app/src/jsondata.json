@@ -1,0 +1,22 @@
+
+[
+    {
+        "id":"1",
+        "name":"sumit",
+        "checked":true
+        
+    },
+
+    {
+        "id":"2",
+        "name":"punit",
+        "checked":false
+    },
+
+    {
+        "id":"3",
+        "name":"shubham",
+        "checked":false
+    }
+    
+]
