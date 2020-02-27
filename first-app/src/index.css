@@ -1,0 +1,20 @@
+.header 
+{
+   
+    padding:0px 40px;
+}
+ul 
+{
+  list-style:none;
+ 
+}
+ul  li 
+{
+    border:1px solid black;
+    border-radius:20px;
+    padding:5px;
+}
+.badge 
+{
+    float:right;
+}
