@@ -1,0 +1,42 @@
+.header 
+{
+   
+    padding:0px 40px;
+}
+ul 
+{
+  list-style:none;
+ 
+}
+ul  li 
+{
+    border:1px solid black;
+    border-radius:20px;
+    padding:5px;
+}
+.badge 
+{
+    float:right;
+}
+.group-group
+{
+    padding:30px;
+}
+#submit
+{
+    margin:10px 0px;
+}
+.border1
+{
+    border:2px solid red;
+    width:100%;
+    padding:10px;
+    border-radius:20px;
+    
+}
+.border{
+    border: none;
+    width:100%;
+   padding:7px;
+   border-radius:20px;
+}
