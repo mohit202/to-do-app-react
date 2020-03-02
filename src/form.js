@@ -8,9 +8,7 @@ class Additems extends Component {
     this.setState({items: event.target.value});
   }
   handleSubmit = (event) => {
-    //alert('form is submited'+this.state.items);
     event.preventDefault();
- // console.log(this.state.items);
     this.props.addNewJson(this.state.items)
     this.setState({items:""});
     if(this.state.items === ""){
@@ -18,8 +16,6 @@ class Additems extends Component {
     }else{
       this.setState({warning: false})
     }
-    // nullItem = this.state.items;
-    // console.log("paragraph");
   }
   render() {
     return (

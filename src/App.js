@@ -13,32 +13,29 @@ class App extends Component {
   }
   addNewJson = (newdata) => {
     let newDataArray = this.state.data;
-    if (newdata !== " ") {
+    if (newdata !== "") {
       newDataArray.push({ name: newdata, checked: false })
     }
     this.setState({ data: newDataArray })
   }
-  //s
-  checkedJson = (checked) => { 
-      let checkedData = this.state.data;
-      console.log(this.event.target.checked);
+  checkedJson = (checked) => {
+    let checkedData = this.state.data;
+    console.log(this.event.target.checked);
   }
-  handleChange = event => {     
-    this.setState({"data": this.state.data.map((val, index)=>{
-      if(index == event.target.id){
-        val.checked = !val.checked
-      }
-      return val
-    })})
-   // console.log(event.target.checked);
+  handleChange = event => {
+    this.setState({
+      "data": this.state.data.map((val, index) => {
+        if (index == event.target.id) {
+          val.checked = !val.checked
+        }
+        return val
+      })
+    })
   }
-  //e
   render() {
     return (
       <div>
-        {/* <Profile text="hello props"/> */}
-        {/* <Profile /> */}
-        <ToDoApp data={this.state.data} handleChange={this.handleChange}/>
+        <ToDoApp data={this.state.data} handleChange={this.handleChange} />
         <Additems addNewJson={this.addNewJson} />
       </div>
     )
