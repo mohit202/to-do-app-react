@@ -1,0 +1,40 @@
+body{
+  margin:0;
+  padding:0;
+}
+.nav {
+  background-color:rgb(20, 128, 104);
+  color:#fff;
+}
+.nav ul {
+  list-style:none;
+  display:flex;
+  margin:0;
+  padding:0;
+}
+.nav ul li{
+  padding:10px 20px;
+  cursor: pointer;
+} 
+.nav ul li:hover {
+  background:rgb(6, 41, 36);
+  color:#fff;
+}
+.home {
+  background:rgb(165, 37, 37);
+  padding:50px;
+  text-align:center;
+  color:#fff;
+}
+.message{
+  background:rgb(9, 46, 40);
+  padding:50px;
+  text-align:center;
+  color:#fff;
+}
+.about {
+  background:rgb(63, 70, 175);
+  padding:50px;
+  text-align:center;
+  color:#fff;
+}
